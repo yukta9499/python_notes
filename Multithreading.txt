@@ -1,0 +1,8 @@
+A thread is a lightweight process that performs a specific task in a program.
+A thread is a smallest unit of execution in a process.Multiple threads in a process 
+
+Thread life cycle in Python
+1. NEW :A thread is a created but not yet started. It is allocated but execution is not started 
+2.RUNNING : A thread is started and is currently executing the cofe.
+3.BLOCKED : A thread is waiting for an event or condition tp occur,such as waiting for I/O operations or acquring locks.
+4.TERMINATED : A thread has completed its execution or has been explicitly terminated.
