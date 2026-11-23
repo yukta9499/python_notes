@@ -23,3 +23,18 @@ Thread life cycle in Python
              b.Takes thread object
              c.Used for Synchronization
 
+
+
+#LOCK : a LOCK is a Synchronization mechanism provided y the threading module that allows only one thread to access
+a shared resource at a time.
+It prevents race conditions and ensures data consistency when multiple threads work on same data.
+
+1.CREATE LOCK :
+lock = threading.Lock()
+
+2.acquire(): 
+lock.acquire() : 1.If the lock is free,the thread acquires it.
+                 2. If another thread already holds it,thread waits.
+
+3.release():
+lock.release: Other waiting threads can now acquire the lock.
