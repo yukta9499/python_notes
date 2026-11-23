@@ -14,3 +14,11 @@ Thread life cycle in Python
 2.sleep(): Pause thread
 3.join(): Wait for thread
 4.Thread(): Create thread
+
+#SLEEP VS JOIN
+1.sleep( ) : a.Pauses current thread
+             b.Takes time as argument
+             c.Used or delay
+2.join():   a.Waits for another thread
+             b.Takes thread object
+             c.Used for Synchronization
