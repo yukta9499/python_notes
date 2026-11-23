@@ -22,3 +22,4 @@ Thread life cycle in Python
 2.join():   a.Waits for another thread
              b.Takes thread object
              c.Used for Synchronization
+
